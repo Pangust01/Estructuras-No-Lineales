@@ -1,6 +1,7 @@
 package main;
 
 import main.Materia.Controllers.Graph;
+import main.Materia.Controllers.Sets;
 import main.Materia.Models.NodeGraph;
 
 /*
@@ -36,8 +37,12 @@ public class App {
         // for (int value : values) {
         //     tree.insert(value);
         // }
-        runGraph();
-        
+        //runGraph();
+        runSets();
+    }
+
+    private static void runSets() {
+        new Sets();
     }
 
     private static void runGraph() {
